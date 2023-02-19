@@ -1,6 +1,84 @@
 .App {
-    justify-content: center;
+    text-align: center;
     display: flex;
+    min-height: 100vh;
     align-items: center;
-    height: 100vh;
-}
+    justify-content: center;
+    color: white;
+    /*background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);*/
+    background: linear-gradient(254.24deg, rgba(215, 219, 38, 0.2) 0%, rgba(0, 0, 0, 0) 50%), linear-gradient(104.86deg, rgba(46, 96, 223, 0.2) 0%, rgba(0, 0, 0, 0.2) 49.37%), linear-gradient(180deg, #FFFFFF 0%, #2FD7B5 165.64%);
+  }
+  
+  .auth-form-container, .login-form, .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .auth-form-container {
+      padding: 5rem;
+      border: 1px solid rgb(8, 8, 8);
+      border-radius: 10px;
+      margin: 0.5rem;
+      background-color: rgba(16, 16, 16, 0.921);
+      border-radius: 10px;
+  
+      /*
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+      */
+    }
+  }
+  
+  /*
+  .left-column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  */
+  
+  label {
+    text-align: left;
+    padding: 0.25rem 0;
+  }
+  
+  input {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  button {
+    border: none;
+    /*background-color: white;*/
+    background: #2E60DF;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #f9f8f9;
+    margin: 0.5rem 0;
+  }
+  
+  .link-btn {
+    background: none;
+    color: white;
+    text-decoration: underline;
+  }
