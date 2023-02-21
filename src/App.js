@@ -3,6 +3,7 @@ import logo from './logo.svg';
 
 import Auth from './Auth'
 import { Home } from './home'
+import Booking  from './booking'
 
 import './App.css';
 import {
@@ -19,6 +20,10 @@ function App() {
     {
       path: '/',
       element: <Home />
+    },
+    {
+      path: '/booking',
+      element: <Booking />
     }
   ]);
 
