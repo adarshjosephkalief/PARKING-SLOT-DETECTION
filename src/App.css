@@ -82,3 +82,14 @@
     color: white;
     text-decoration: underline;
   }
+
+  .register-form {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .register-section {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
